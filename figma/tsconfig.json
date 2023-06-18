@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2019", "es2017", "es7", "es6", "dom", "dom.iterable"],
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "../node_modules/@types",
+      "../node_modules/@figma"
+    ],
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist", "example", "tests"]
+}

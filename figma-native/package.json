@@ -1,0 +1,23 @@
+{
+  "name": "figma-native",
+  "version": "2021.0.1f1.1",
+  "keywords": [
+    "figma",
+    "bridged",
+    "flutter",
+    "flutter-figma",
+    "figma-plugin"
+  ],
+  "license": "https://github.com/bridgedxyz/contributing-and-license",
+  "author": "bridged.xyz by softmarshmallow <woojoo@softmarshmallow.com>",
+  "dependencies": {
+    "app": "*",
+    "figma-js": "^1.13.0",
+    "figma-core": "*"
+  },
+  "scripts": {
+    "webpack:watch": "webpack --watch",
+    "build": "webpack -p --mode=production",
+    "dev": "webpack --watch"
+  }
+}

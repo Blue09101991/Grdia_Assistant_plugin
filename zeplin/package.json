@@ -1,0 +1,26 @@
+{
+  "name": "zeplin",
+  "version": "0.1.0",
+  "description": "zeplin extension for birdged",
+	"license": "https://github.com/bridgedxyz/contributing-and-license",
+  "scripts": {
+    "start": "zem start",
+    "build": "zem build",
+    "clean": "zem clean",
+    "exec": "zem exec",
+    "test": "zem test",
+    "publish": "zem publish"
+  },
+  "zeplin": {
+    "displayName": "Bridged",
+    "platforms": [
+      "web",
+      "android",
+      "ios",
+      "osx"
+    ]
+  },
+  "dependencies": {
+    "zem": "^1.0.6"
+  }
+}
